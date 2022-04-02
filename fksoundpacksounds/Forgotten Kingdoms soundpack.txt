@@ -1,0 +1,156 @@
+#alias {soundon} {#load {forgotten kingdoms soundpack.set}}
+#trigger {This is the Account Main Menu. Please select an option.} {#play fktheme*2.mp3 25}
+#trigger {Welcome to Forgotten Kingdoms*} {stopmusic}
+#trigger {* tells you *} {#play tells.wav}
+#trigger {*says *} {#play says.wav}
+#trigger {* asks *} {#play says.wav}
+#trigger {* exclaims *} {#play says.wav}
+#trigger {Your crush beats*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {With a bonecrunching sound your crush violently smashes *} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {Your crush shreds*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {Your crush skillfully shreds*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {Your crush deftly shreds*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {Your crush violently shreds*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {With a bonecrunching sound your crush skillfully smashes*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {*'s crush *} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {*'s crush deftly crushes your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s crush violently hits your *} {#play hurt*7.wav;#gagline all}
+#trigger {Your pierce*} {#play swordhit*5.wav 50}
+#trigger {With a sickening sound your pierce*} {#play swordhit*5.wav 50}
+#trigger {*'s pierce *} {#play swordhit*5.wav 50}
+#trigger {*'s pierce deeply perforates your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce tears a gaping wound into your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce violently shreds your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce tears open your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce deeply penetrates your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce shreds your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce tears wounds into your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce deeply cuts your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce nicks your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce shallowly cuts*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce cuts your*} {#gagline all}
+#trigger {*'s pierce perforates your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce scratches your*} {#gagline all;#play hurt*7.wav}
+#trigger {*'s pierce penetrates your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s pierce shallowly penetrates your*} {#play hurt*7.wav;#gagline all}
+#trigger {Your slash minces *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {Your slash nearly bisects *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {Your slash lacerates *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {Your slash tears open *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {Your slash cuts *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {With a sickening sound your slash deftly shreds *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {With a sickening sound your slash violently shreds *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {your slash skillfully shreds *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {Your slash tears a gaping wound into *} {#play swordswing*7.wav 50;#play swordhit*6.wav 50}
+#trigger {*'s slash *} {#play swordhit*6.wav 50}
+#trigger {*slashes your*} {#play hurt*7.wav;#gagline all}
+#trigger {*slash tears open your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash shreds your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash skillfully slashes your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash lays open your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash viciously cuts your*} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash cuts your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash skillfully shreds your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash lacerates your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash deftly shreds your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash deeply gashes your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash skillfully cuts your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s slash viciously slashes *'s *} {#gagline all}
+#trigger {*'s bite *} {#play bite*3.wav 50}
+#trigger {*'s bite scratches your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s bite pierces your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s bite drives deeply in to your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s bite drills in to your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s bite penetrates your *} {#gagline all;#play hurt*5.wav}
+#trigger {*'s bite shreds your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite stabs your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite deeply penetrates your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite impales you.} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite deeply punctures your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite deeply shreds your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite punctures your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite goes straight through your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite perforates your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite deeply stabs your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite deeply pierces your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s bite impales *} {#gagline all}
+#trigger {*'s bite pierces *} {#gagline all}
+#trigger {*'s claw*} {#play swordswing*7.wav 50}
+#trigger {*'s breath incinerates your *} {#play hurt*7.wav}
+#trigger {*'s wing buffet *} {#play crumble.wav}
+#trigger {*'s wing buffet deftly hits your *} {#play hurt*7.wav;#gagline all}
+#trigger {*viciously tail sweep your *} {#play hurt*7.wav}
+#trigger {*'s punch *} {#play punch*5.wav 50}
+#trigger {Your punch *} {#play punch*5.wav 50}
+#trigger {*'s punch powerfully beats your *} {#play hurt*7.wav;#gagline all}
+#trigger {*punches your *} {#play punch*5.wav 50;#play hurt*7.wav;#gagline all}
+#trigger {*slams a punch into your*} {#play hurt*7.wav;#play punch*5.wav 50}
+#trigger {*'s slams a punch into your *} {#play hurt*5.wav;#gagline all}
+#trigger {*'s lands a heavy punch in your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punch brutally pulverizes your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punch viciously pulverizes your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punch pulverizes your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punch violently beats your *} {#play hurt*7.wav; #gagline all}
+#trigger {*'s punch viciously hammers your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punch hammers your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punches you violently in your *} {#play hurt*7.wav;#gagline all}
+#trigger {*'s punches you *} {#play punch*6.wav 50}
+#trigger {* '*'} {#play says.wav}
+#trigger {*narrowly avoids *'s claw.} {#gagline all; #play swordswing*7.wav 50}
+#trigger {*ducks under *'s slashing attack.} {#gagline all;#play swordswing*7.wav 50}
+#trigger {*ducks under your *} {#play swordswing*7.wav 50}
+#trigger {*ducks under *'s wing.} {#play swordswing*7.wav 50;#gagline all}
+#trigger {You weave out of the way of *} {#play miss*3.wav 50}
+#trigger {*evades *'s crushing attack.} {#gagline all; #play miss*3.wav 50}
+#trigger {*steps back, out of range of*} {#gagline all;#play miss*3.wav 50}
+#trigger {*leaps out of the way of *} {#gagline all; #play miss*3.wav 50}
+#trigger {*weaves out of the way *} {#play miss*3.wav 50;#gagline all}
+#trigger {* sidesteps * attack.} {#gagline all;#play miss*3.wav 50}
+#trigger {You sidestep*} {#gagline all;#play miss*3.wav 50}
+#trigger {You step back out of the range of *} {#play miss*3.wav 50}
+#trigger {* is DEAD!} {#play kill*4.wav 75;#alarm {.6} {#play death*10.wav}}
+#trigger {* is DESTROYED!} {#play kill1.wav;#play break*4.wav;#alarm {.6} {#play death*10.wav}}
+#trigger {*rake across your*} {#play hurt*7.wav;#play swordhit*6.wav 50}
+#trigger {You grunt as * kick lands*} {#play hurt*7.wav;#play kick.wav 50}
+#trigger {*makes a nice kick, but your crouch places his foot a mile above your head.} {#play miss*3.wav 50}
+#trigger {* grunts as your kick lands.} {#play swordswing2.wav 50;#alarm {.4} {#play kick.wav 50}}
+#trigger {With a flurry of motion * kicks *'s chest.} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {With a sickening sound *'s kick breaks*} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {With a sickening sound *'s kick snaps *} {#play swordswing*7.wav 50;#play crumble.wav 50}
+#trigger {Realms of the dead} {#play killed*2.wav}
+#TRIGGER {Your skin feels soft again*} {#play stoneskinoff.wav;#play warning.wav}
+#trigger {Your stone skin absorbs all of *} {#play hammer.wav 35}
+#trigger {* skin has a grey pebbled texture.} {#play stoneskinon.wav 30}
+#TRIGGER {*our flesh loses its stony aspec*} {#Play stoneskinoff.wav;#play warning.wav} {} AnyCase
+#trigger {You watch with pride as your magic missile hits*} {#play magicmissile.wav}
+#trigger {Your chain of lightning dances about*} {#play lightning1.wav}
+#trigger {You cry out in pain as a chain of lightning hits you!} {#play lightning.wav}
+#trigger {Your chain of lightning strikes*} {#play lightning.wav}
+#trigger {You make the earth explode and shower*} {#play earthwall2.wav}
+#trigger {*makes the earth explode*} {#play earthwall2.wav}
+#trigger {The shower of stones caused by you spell crushes*} {#play earthwall2.wav}
+#trigger {Your lightning bolt fries *} {#play lightning.wav}
+#trigger {Your lightning bolt hits*} {#play lightning.wav}
+#trigger {Your polar ray impales*} {#play icebolt.wav}
+#trigger {Your polar ray freezes*} {#play icebolt.wav}
+#trigger {You are surrounded by mirror images of yourself.} {#play mirrorimage1.wav}
+#trigger {*destroys one of your images.} {#gagline all;#play mirrorimage2.wav}
+#trigger {Your mirror images vanish.} {#play mirrorimage3.wav}
+#trigger {Your force shield shimmers then fades away.} {#play shieldoff.wav}
+#trigger {A force shield of shimmering blue surrounds you.} {#play shieldon.wav}
+#trigger {*DISARMS you!} {#play disarmed.wav}
+#trigger {You open * gate*} {#play doorclose.wav}
+#trigger {You close * gate*} {#play doorclose.wav}
+#trigger {You close * gates*} {#play doorclose.wav}
+#trigger {You open * door*} {#play dooropen*2.wav}
+#trigger {You close * door*} {#play doorslam.wav}
+#trigger {*A * pile of * coins*} {#play dropgold.wav 50}
+#trigger {You get * coin*} {#play offergold1.wav 50}
+#trigger {You get * coins.} {#play offergold1.wav 50}
+#trigger {You train to improve your level.} {#play level1.wav}
+#trigger {You regain enough power *} {#play spell_regain.wav}
+#trigger {*approaches you and prepares to engage you in combat!} {#play monster*10.wav}
+#trigger {*walks in from*} {#play step*4.wav}
+#trigger {*jogs in from*} {#play step*4.wav}
+#trigger {*runs in from*} {#play step*4.wav}
+#trigger {*sprints in from*} {#play step*4.wav}
